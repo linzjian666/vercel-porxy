@@ -1,9 +1,9 @@
 {
     "rewrites": [
-        { "source": "/", "destination": "https://vvtss-mu5l.onrender.com" },
+        { "source": "/", "destination": "https://api.openai.com" },
         {
             "source": "/:match*",
-            "destination": "https://vvtss-mu5l.onrender.com/:match*"
+            "destination": "https://api.openai.com/:match*"
         }
     ],
     "github": {
