@@ -7,7 +7,7 @@
 vercel现在每月有100GB的免费流量。
 
 ## 部署
-[![Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/gaboolic/vercel-reverse-proxy)
+[![Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/linzjian666/vercel-porxy)
 
 
 ## 使用方法
