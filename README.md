@@ -1,4 +1,4 @@
-# vercel-reverse-proxy
+# vercel-proxy
 
 基于gaboolic大佬的[vercel-reverse-proxy](https://github.com/gaboolic/vercel-reverse-proxy.git)修改
 
