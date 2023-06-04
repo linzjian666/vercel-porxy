@@ -18,8 +18,8 @@ vercel现在每月有100GB的免费流量。
 ![绑定域名](img/domain.png)
 绑定域名时按照vercel上的说明配置即可，其实就是在你的域名上配了一个子域名，cname到vercel服务器
 
-3 访问 域名/https://url  或者/http://url即可。
-映射规则为/https://url映射到https接口，/https://url映射到http接口
+3 访问 域名`/https://url`  或者`/http://url`即可。
+映射规则为`/https://url`映射到https接口，`/https://url`映射到http接口
 
 ## 示例
 例1 访问https://替换为你自己的域名.com/https://api.openai.com/v1/chat/completions 
