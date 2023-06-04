@@ -18,24 +18,24 @@ vercel现在每月有100GB的免费流量。
 ![绑定域名](img/domain.png)
 绑定域名时按照vercel上的说明配置即可，其实就是在你的域名上配了一个子域名，cname到vercel服务器
 
-3 访问 `域名/https://url`  或者`/http://url`即可。
-映射规则为`/https://url`映射到https接口，`/https://url`映射到http接口
+3 访问 `域名/https/url`  或者`/http/url`即可。
+映射规则为`/https/url`映射到https接口，`/http/url`映射到http接口
 
 ## 示例
-例1 访问https://替换为你自己的域名.com/https://api.openai.com/v1/chat/completions 
+例1 访问https://替换为你自己的域名.com/https/api.openai.com/v1/chat/completions 
 实际上会替换为https://api.openai.com/v1/chat/completions
 ![demo1](img/demo1.png)
 
-例2 访问https://替换为你自己的域名.com/https://raw.githubusercontent.com/gaboolic/vercel-reverse-proxy/main/vercel.json
+例2 访问https://替换为你自己的域名.com/https/raw.githubusercontent.com/gaboolic/vercel-reverse-proxy/main/vercel.json
 实际上会替换为https://raw.githubusercontent.com/gaboolic/vercel-reverse-proxy/main/vercel.json
 ![demo2](img/demo2.png)
 映射规则为/proxy/url映射到https接口，/httpproxy/url映射到http接口
 
 也可用于github下载加速。假如原始链接是https://objects.githubusercontent.com/github-production-release-asset-2e65be/xxxxxx 
-改为https://替换为你自己的域名.com/https://objects.githubusercontent.com/github-production-release-asset-2e65be/xxxxxx 就可以加速了。下图是github原始链接和加速后对比。可以看到效果杠杠的，每秒50kb小水管变成了每秒2mb的大水管
+改为https://替换为你自己的域名.com/https/objects.githubusercontent.com/github-production-release-asset-2e65be/xxxxxx 就可以加速了。下图是github原始链接和加速后对比。可以看到效果杠杠的，每秒50kb小水管变成了每秒2mb的大水管
 ![github-download](img/github-download.png)
 
-例3 访问https://替换为你自己的域名.com/https://www.google.com/search?q=vercel-reverse-proxy
+例3 访问https://替换为你自己的域名.com/https/www.google.com/search?q=vercel-reverse-proxy
 实际上会替换为https://www.google.com/search?q=vercel-reverse-proxy
 ![demo3](img/demo3.png)
 代理google搜索结果页面
